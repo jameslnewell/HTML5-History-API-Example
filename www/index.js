@@ -25,7 +25,7 @@ function show(page) {
 }
 
 //navigate on button press
-delegate.bind(document, '.page__previous, .page__next', 'click', function(event){
+delegate.bind(document, '.page__link', 'click', function(event){
   router('/page-'+event.target.getAttribute('data-page'));
 });
 

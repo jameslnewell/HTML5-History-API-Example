@@ -44,3 +44,9 @@ html, body {
   margin: 0;
   font-family: 'trebuchet ms', verdana, arial;
 }
+
+.page__link {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}
