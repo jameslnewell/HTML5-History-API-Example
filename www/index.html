@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML5 History API Example</title>
+    <link href="build/build.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="page page--hidden page--index">
+        <h1 class="page__title">Page Index</h1>
+        <ul>
+            <li><a href="/page-1">Page #1</a></li>
+            <li><a href="/page-2">Page #2</a></li>
+            <li><a href="/page-3">Page #3</a></li>
+            <li><a href="/page-4">Page #4</a></li>
+        </ul>
+    </div>
+
+    <div class="page page--hidden page--1">
+        <h1 class="page__title">Page #1</h1>
+        <button class="page__next" data-page="2">Next</button>
+    </div>
+
+    <div class="page page--hidden page--2">
+        <h1 class="page__title">Page #2</h1>
+        <button class="page__previous" data-page="1">Previous</button>
+        <button class="page__next" data-page="3">Next</button>
+    </div>
+
+    <div class="page page--hidden page--3">
+        <h1 class="page__title">Page #3</h1>
+        <button class="page__previous" data-page="2">Previous</button>
+        <button class="page__next" data-page="4">Next</button>
+    </div>
+
+    <div class="page page--hidden page--4">
+        <h1 class="page__title">Page #4</h1>
+        <button class="page__previous" data-page="3">Previous</button>
+    </div>
+
+    <div class="page page--hidden page--not-found">
+        <h1 class="page__title">Not Found</h1>
+    </div>
+
+    <script src="shims.js"></script>
+    <script src="history.js"></script>
+    <script src="build/build.js"></script>
+
+</body>
+</html>

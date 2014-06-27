@@ -1,0 +1,9 @@
+{
+  "name": "html5-history-api-example",
+  "scripts": ["index.js"],
+  "styles": ["index.css"],
+  "dependencies": {
+    "component/delegate": "*",
+    "visionmedia/page.js": "*"
+  }
+}

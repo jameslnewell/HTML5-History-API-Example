@@ -1,0 +1,6 @@
+{
+  "name": "html5-history-api-example",
+  "dependencies": {
+    "express": "^4.4.5"
+  }
+}
